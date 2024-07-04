@@ -1,0 +1,19 @@
+h2 + ul{  /*irmao adjacente*/
+    
+    color:rgb(128, 0, 0);
+}
+ /*irmao em geral seria ~*/
+
+
+body > header {/*filho */
+    background-color: rgb(208, 208, 226);
+}
+
+
+#html li { /*decedentes */
+    background-color: rgb(15, 15, 15);
+}
+
+.css li{
+    background-color: aquamarine;
+}

@@ -1,0 +1,26 @@
+h1,h2{ /*seletor por tags */
+    color: burlywood;
+}
+
+* { /*seletor universal*/
+    background-color: brown;
+}
+
+
+.destaque,p,a ,#unico{ /*seletor por classes*/
+    color: antiquewhite;
+}
+
+#unico { /*seletor por ID*/
+    text-transform: uppercase;
+}
+
+[href] { /*seletor por atributo*/
+    background-color: aquamarine;
+}
+
+main, h1{
+    height: auto;
+    width: 700px;
+    margin: auto;
+}

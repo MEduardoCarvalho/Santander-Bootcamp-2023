@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{
+        background-color: bisque;
+    }
+        div {
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+        }
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        #contain {
+            object-fit: contain;
+            object-position: 30px 50px;
+        }
+        #cover {
+            object-fit: cover;
+            object-position: left 50px;
+        }
+        #none {
+            object-fit: none;
+        }
+        #scale {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        propriedade <code>object fit</code>
+    </h1>
+    <h2>padrao</h2>
+    <div>
+        <img src="filhote-capa.jpg.jpg" alt="">
+    </div>
+
+    <h2>conteiner</h2>
+    <div>
+        <img src="filhote-capa.jpg.jpg" alt="" id="contain">
+    </div>
+
+    <h2>cover</h2>
+    <div>
+        <img src="filhote-capa.jpg.jpg" alt="" id="cover">
+    </div>
+
+    <h2>none</h2>
+    <div>
+        <img src="filhote-capa.jpg.jpg" alt="" id="none">
+    </div>
+
+    <h2>scale</h2>
+    <div>
+        <img src="filhote-capa.jpg.jpg" alt="" id="scale">
+    </div>
+</body>
+</html>
