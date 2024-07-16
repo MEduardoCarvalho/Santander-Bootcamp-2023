@@ -1,0 +1,16 @@
+main {
+    min-width: 350px;
+    min-height: 300px;
+    border: 2px saddlebrown solid;
+}
+
+
+
+button {
+    color: blue;
+    background-color: gray;
+    width: 25%;
+    height: 2%;
+    border-radius: 20px;
+
+}
